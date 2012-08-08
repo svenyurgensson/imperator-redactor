@@ -50,6 +50,7 @@ module ImperatorRedactor
       when "wym"
         options[:css] = "../wym"
       end
+      options.delete(:style)
 
       # set default style
       unless options[:css]
@@ -78,7 +79,7 @@ module ImperatorRedactor
 #        buttons:         '',
 #        buttonsCustom:   '',
 #        buttonsAdd:      [],
-        path:                 '/assets/imperator-redactor/',
+        path:                 '/assets/imperator-redactor',
 
         focus:                false,
         resize:               true,
