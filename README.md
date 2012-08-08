@@ -13,7 +13,7 @@ I created this mountable engine with Imperavi so now you can easily integrate th
 Put this gem into your Gemfile and run `bundle install`
 
 ```ruby
-gem 'imperator-redactor'
+gem 'imperator-redactor', git: 'https://github.com/svenyurgensson/imperator-redactor.git'
 ```
 
 Then run install generator:
