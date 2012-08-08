@@ -64,4 +64,7 @@ I would appreciate any participation in the project. Any additions, fixes and id
 
 ## License
 
-MIT License. Copyright 2012 Yury Batenko jurbat@gmail.com
+This ruby gem is under MIT License. Copyright 2012 Yury Batenko jurbat@gmail.com
+
+Meanwile imperavi redactor is under it's own license, so you should check it too: http://redactorjs.com/download/
+
