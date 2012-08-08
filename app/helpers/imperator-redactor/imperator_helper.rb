@@ -44,17 +44,17 @@ module ImperatorRedactor
 
       case options[:style]
       when "word", "docstyle"
-        options[:css] = "../docstyle"
+        options[:css] = "../docstyle.css"
       when "standart"
-        options[:css] = "../style"
+        options[:css] = "../style.css"
       when "wym"
-        options[:css] = "../wym"
+        options[:css] = "../wym.css"
       end
       options.delete(:style)
 
       # set default style
       unless options[:css]
-        options[:css] = "../style"
+        options[:css] = "../style.css"
       end
 
 
