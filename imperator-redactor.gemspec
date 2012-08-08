@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.homepage      = "https://github.com/svenyurgensson/imperator-redactor"
 
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "README.md"]
   s.test_files    = Dir["test/**/*"]
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.name          = "imperator-redactor"
