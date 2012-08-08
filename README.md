@@ -2,9 +2,9 @@
 
 This project is a fork of original imperavi-rails gem: https://github.com/tanraya/imperavi-rails
 
-My point was to simplify things and to provide up-to-date support of last available imperavi javascript editor codebase
+My point was to simplify things and to provide up-to-date support of last available imperavi javascript editor codebase.
 
-What is Imperavi? Imperavi is open-source, lightweight and really pretty-looking wysiwyg editor written with JQuery. Look at the demo page: http://imperavi.com/redactor/examples/ . Like it?
+What is Imperavi? Imperavi is open-source, lightweight and really pretty-looking wysiwyg editor written with JQuery. Look at the demo page: http://redactorjs.com/ . Do you like it?
 
 I created this mountable engine with Imperavi so now you can easily integrate this editor into your app.
 
