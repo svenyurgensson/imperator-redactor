@@ -37,8 +37,6 @@ Add this helpers into the your view that contains a form:
 In this example `page_article` is an id of textarea field. You can pass additional options to `imperator` helper as second argument. See the full list of options here: http://redactorjs.com/docs/settings/
 In addition you can set redactor style with option: `style: 'wym'` (avaible styles are: 'standart', 'wym', 'docstyle')
 
-You may want the text on your page to be styled the same way as it looks in the editor. To do this, add the following styles into your `application.css.scss` (provided that the text on the page is enclosed with `article` tag):
-
 ## Deal with images
 
 Image uploading at the server side is not a part of the imperator-redactor. You have to implement this functionality in your application by yourself. It's easy. Read the docs below.
