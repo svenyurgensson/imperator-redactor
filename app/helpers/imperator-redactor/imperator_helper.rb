@@ -78,7 +78,7 @@ module ImperatorRedactor
 #        buttons:         '',
 #        buttonsCustom:   '',
 #        buttonsAdd:      [],
-        path:            false,
+        path:                 '/assets/imperator-redactor/',
 
         focus:                false,
         resize:               true,
