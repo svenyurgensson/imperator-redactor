@@ -1,4 +1,4 @@
-# Another one Imperavi for Rails 3.2
+# Another one Imperavi Javascript Editor Engine for Rails >= 3.2
 
 This project is a fork of original imperavi-rails gem: https://github.com/tanraya/imperavi-rails
 
@@ -35,7 +35,8 @@ Add this helpers into the your view that contains a form:
 ```
 
 In this example `page_article` is an id of textarea field. You can pass additional options to `imperator` helper as second argument. See the full list of options here: http://redactorjs.com/docs/settings/
-In addition you can set redactor style with option: `style: 'wym'` (avaible styles are: 'standart', 'wym', 'docstyle')
+
+In addition you can set redactor style with option: `style: 'wym'` (available styles are: `'standart'`, `'wym'`, `'docstyle'`)
 
 ## Deal with images
 
@@ -47,7 +48,7 @@ You can run install generator:
 rails generate imperator_redactor:scaffold images
 ```
 
-Which produce images_controller.rb scaffold as a base point to deal with a images inserting and uploading
+Which produce images_controller.rb scaffold as a base point to deal with a images inserting and uploading.
 
 
 # Contribute
